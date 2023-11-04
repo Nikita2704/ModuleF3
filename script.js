@@ -14,8 +14,8 @@ async function getIP() {
     ipAddress = result.ip
     const getStartedButton = document.getElementById("getStarted");
     getStartedButton.addEventListener("click", () => {
-      document.cookie = `ip=${ipAddress}; path=https://kugaonkarp.github.io/ModuleF3/locationDetails/main-page.html`;
-      window.location.href = "https://kugaonkarp.github.io/ModuleF3/locationDetails/main-page.html";
+      document.cookie = `ip=${ipAddress}; path=https://nikita2704.github.io/ModuleF3/locationDetails/main-page.html`;
+      window.location.href = "https://nikita2704.github.io/ModuleF3/ModuleF3/locationDetails/main-page.html";
     });
     console.log(ipAddress);
   } catch (error) {
